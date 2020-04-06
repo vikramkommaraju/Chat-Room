@@ -1,0 +1,52 @@
+{
+  "name": "chat-demo",
+  "version": "1.0.0",
+  "description": "Chat Application Using Platform Events Acknowledgements",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:spring-guides/tut-react-and-spring-data-rest.git"
+  },
+  "keywords": [
+    "rest",
+    "hateoas",
+    "spring",
+    "data",
+    "react"
+  ],
+  "author": "Vikram Kommaraju",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/spring-guides/tut-react-and-spring-data-rest/issues"
+  },
+  "homepage": "https://github.com/spring-guides/tut-react-and-spring-data-rest",
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "bootstrap-icons": "^1.0.0-alpha3",
+    "react": "^16.5.2",
+    "react-bootstrap-icons": "^1.0.1-alpha3",
+    "react-dom": "^16.5.2",
+    "react-router": "^0.13.3",
+    "react-router-dom": "latest",
+    "rest": "^1.3.1",
+    "sockjs": "^0.3.20",
+    "sockjs-client": "^1.4.0",
+    "stomp": "^0.1.1",
+    "stompjs": "^2.3.3"
+  },
+  "scripts": {
+    "watch": "webpack --watch -d"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.5",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0",
+    "jsforce": "^1.8.4",
+    "react-router": "^0.13.3",
+    "react-router-dom": "latest"
+  }
+}
